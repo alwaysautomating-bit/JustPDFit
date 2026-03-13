@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[#F3F4F6] text-[#111827] antialiased;
+}
+
+.selection\:bg-emerald-100 ::selection {
+  background-color: rgb(209 250 229);
+}
+
+.selection\:text-emerald-900 ::selection {
+  color: rgb(6 78 59);
+}
